@@ -26,7 +26,7 @@ module.exports.handler = function(event, context, cb) {
                 應徵職缺：${event.payload.job}\n
                 電話：${event.payload.phone}\n
                 信箱：${event.payload.email}\n
-                履歷：${event.payload.resume}
+                履歷：${(event.payload.resume + '').substring(0, 500)}
             `;
 
             request.post({
