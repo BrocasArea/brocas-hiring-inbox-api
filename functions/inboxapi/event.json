@@ -1,0 +1,10 @@
+{
+  "operation": "sendResume",
+  "payload": {
+    "name": "Brocas",
+    "job": "掃地清潔工",
+    "phone": "0912345678",
+    "email": "hr@brocas.com.tw",
+    "resume": "goo.gl/12345"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "apiSendResumeTemplate": {
+    "application/json": {
+      "operation": "sendResume",
+      "payload": "$input.json('$')"
+    }
+  }
+}
