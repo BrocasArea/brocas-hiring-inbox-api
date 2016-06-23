@@ -47,7 +47,7 @@ module.exports.handler = function(event, context, cb) {
             break;
         default:
             return cb(null, {
-                message: 'Go Serverless! Your Lambda function executed successfully!'
+                message: '嗨，看到這個訊息代表中間一定有什麼誤會，再試試看吧！'
             });
     }
     //
