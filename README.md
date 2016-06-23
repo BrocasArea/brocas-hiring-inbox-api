@@ -16,7 +16,7 @@
   "name": "Brocas小幫手",
   "phone": "0912345678",
   "email": "hr@brocas.com.tw",
-  "resume": "brocas.com.tw"
+  "resume": "http://brocas.com.tw"
 }
 ```
 
