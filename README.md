@@ -8,9 +8,9 @@
 - https://qzqmgdxcm5.execute-api.ap-northeast-1.amazonaws.com/dev/inboxapi
 
 
-###### 請求格式
+###### 請求格式 application/json
 
-```json
+```json 
 {
   "job": "掃地清潔工",
   "name": "Brocas小幫手",
@@ -24,3 +24,4 @@
 
 - 五個欄位都是 `String`
 - 亂搞 API 的話會導致我們收不到你的履歷 XD
+- 看到 `ok, it works` 才算成功喔！
