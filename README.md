@@ -14,7 +14,7 @@
 {
   "job": "掃地清潔工",
   "name": "Brocas小幫手",
-  "phone": "0912345678",
+  "phone": "(02)2648-8096",
   "email": "hr@brocas.com.tw",
   "resume": "http://brocas.com.tw"
 }
