@@ -1,6 +1,6 @@
 # 布洛卡斯（Brocas）需要你！
 
-![Banner](https://github.com/BrocasArea/brocas-hiring-inbox-api/raw/master/ad.jpg)
+![Banner](https://github.com/BrocasArea/brocas-hiring-inbox-api/raw/master/hire-banner.jpg)
 
 我們布洛卡斯（Brocas）是專業的地城守護者，專門幫各類客戶導入以最新的資訊科技及策略，抵擋邪惡人類的入侵，然後征服世界！打造設計 App、前後端等武器是我們的專長，整合軟硬體系統並研發技術是我們的強項。現在，我們需要許多新的夥伴，快來加入我們吧！
 
