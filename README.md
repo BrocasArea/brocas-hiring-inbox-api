@@ -1,5 +1,7 @@
 # Brocas
 
+![Banner](https://github.com/BrocasArea/brocas-hiring-inbox-api/raw/master/banner.jpg)
+
 應徵方式：請把履歷的 **連結** 用下面這個 API 傳給我們。
 
 ###### 位址
