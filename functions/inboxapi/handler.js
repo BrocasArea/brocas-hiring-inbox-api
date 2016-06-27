@@ -20,6 +20,12 @@ module.exports.handler = function(event, context, cb) {
         case 'sendResume':
             var request = require('request');
 
+            if (!event.sourceIP) {
+                return cb(null, {
+                    message: '嗨，網路有點問題，換個環境再試試看吧！'
+                });
+            }
+
             var content = `
                 【新的履歷事件】\n
                 姓名：${event.payload.name}\n
