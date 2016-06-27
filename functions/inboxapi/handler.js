@@ -20,19 +20,20 @@ module.exports.handler = function(event, context, cb) {
         case 'sendResume':
             var request = require('request');
 
-            var message = `
+            var content = `
                 【新的履歷事件】\n
                 姓名：${event.payload.name}\n
                 應徵職缺：${event.payload.job}\n
                 電話：${event.payload.phone}\n
                 信箱：${event.payload.email}\n
-                履歷：${(event.payload.resume + '').substring(0, 500)}
+                履歷：${(event.payload.resume + '').substring(0, 500)}\n
+                IP：${event.sourceIP}
             `;
 
             request.post({
                 url: WEBHOOK_URL,
                 json: {
-                    text: message
+                    text: content
                 }
             }, function optionalCallback(err, httpResponse, body) {
                 if (err || body !== 'ok') {
@@ -40,6 +41,8 @@ module.exports.handler = function(event, context, cb) {
                 }
                 context.succeed({
                     message: 'ok, it works',
+                    content: content,
+                    ip: event.sourceIP,
                     payload: event.payload
                 });
             });

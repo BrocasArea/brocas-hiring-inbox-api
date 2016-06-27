@@ -2,6 +2,7 @@
   "apiSendResumeTemplate": {
     "application/json": {
       "operation": "sendResume",
+      "sourceIP" : "$context.identity.sourceIp",
       "payload": "$input.json('$')"
     }
   }

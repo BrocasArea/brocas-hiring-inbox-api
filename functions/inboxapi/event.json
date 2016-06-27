@@ -2,7 +2,7 @@
   "operation": "sendResume",
   "payload": {
     "name": "Brocas",
-    "job": "掃地清潔工",
+    "job": "開發測試員",
     "phone": "0912345678",
     "email": "hr@brocas.com.tw",
     "resume": "goo.gl/12345"
