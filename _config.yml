@@ -1,0 +1,8 @@
+title: 歡迎新夥伴加入布洛卡斯！
+description: 只要你會 iOS、Android、Node.js 開發，就來通過我們的考驗吧！
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
